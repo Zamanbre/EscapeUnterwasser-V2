@@ -1419,7 +1419,7 @@
         "z": "350f3f1be5bf834e",
         "name": "Main Flow",
         "info": "This flow contains nodes that define the overall configuration and monitor state of the system.\n",
-        "x": 80,
+        "x": 100,
         "y": 40,
         "wires": []
     },
@@ -2277,6 +2277,16 @@
         ],
         "x": 495,
         "y": 540,
+        "wires": []
+    },
+    {
+        "id": "db6d7c8075a58998",
+        "type": "comment",
+        "z": "350f3f1be5bf834e",
+        "name": "NCD HH",
+        "info": "",
+        "x": 260,
+        "y": 40,
         "wires": []
     },
     {
