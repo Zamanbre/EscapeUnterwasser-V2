@@ -31,14 +31,6 @@
         "env": []
     },
     {
-        "id": "b365465971930594",
-        "type": "tab",
-        "label": "Fernbedienung",
-        "disabled": true,
-        "info": "",
-        "env": []
-    },
-    {
         "id": "063501cbf8d4d96b",
         "type": "group",
         "z": "350f3f1be5bf834e",
@@ -196,38 +188,16 @@
             "97d1e8b9665bb739",
             "b97e068ab3d98f87",
             "6891150ecaea6454",
-            "2d804e6e7e5f82d5"
+            "2d804e6e7e5f82d5",
+            "57e51b8245a2d410",
+            "d6b3abed88bd8190",
+            "348cd4de52f3af5e",
+            "8b5921c86f734835"
         ],
-        "x": 44,
+        "x": 34,
         "y": 19,
-        "w": 1274,
+        "w": 1284,
         "h": 754
-    },
-    {
-        "id": "ddbad4a3c3dc8f08",
-        "type": "group",
-        "z": "b365465971930594",
-        "style": {
-            "stroke": "#999999",
-            "stroke-opacity": "1",
-            "fill": "none",
-            "fill-opacity": "1",
-            "label": true,
-            "label-position": "nw",
-            "color": "#a4a4a4"
-        },
-        "nodes": [
-            "3ee472af167706ec",
-            "266bfa28dd9f85fb",
-            "364ace566a5eb150",
-            "9f5fce6aecd7222c",
-            "1d5426bf0220188b",
-            "0a6601fb4077ba94"
-        ],
-        "x": 94,
-        "y": 79,
-        "w": 832,
-        "h": 122
     },
     {
         "id": "e820139a116e902e",
@@ -331,8 +301,8 @@
             "f526ea0477fe7a84",
             "0d8e930bb6631647"
         ],
-        "x": 94,
-        "y": 59,
+        "x": 34,
+        "y": 39,
         "w": 372,
         "h": 262
     },
@@ -353,6 +323,51 @@
         "y": 2279,
         "w": 212,
         "h": 162
+    },
+    {
+        "id": "52f080aef4b691e8",
+        "type": "group",
+        "z": "3fc41409a7a06018",
+        "name": "Lautstärkeregler",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "786fb2030d54ac2d",
+            "bc2387735271bc15",
+            "61c7419707c8c961",
+            "c312febc58be81e5",
+            "ec8d2fb3791550f8"
+        ],
+        "x": 34,
+        "y": 331.5,
+        "w": 1092,
+        "h": 97
+    },
+    {
+        "id": "f3060c14867d06d9",
+        "type": "group",
+        "z": "3fc41409a7a06018",
+        "name": "Mumble Steuerung",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "74b0727de91a47aa",
+            "8f6b7ef483edc25f",
+            "7806b36b7c59749f",
+            "1f74db221799fc70",
+            "a5689cf1d1166c97",
+            "0f81e7423eb21754",
+            "0a8fa1204f6ab971",
+            "b9c962051ff63759",
+            "a534e39964869d20",
+            "f7b395d2c4c58541"
+        ],
+        "x": 34,
+        "y": 479,
+        "w": 1302,
+        "h": 202
     },
     {
         "id": "66fa805ea904e05b",
@@ -492,7 +507,7 @@
             "4dc0417176cffd8b"
         ],
         "x": 94,
-        "y": 359,
+        "y": 419,
         "w": 472,
         "h": 182
     },
@@ -710,17 +725,6 @@
         ]
     },
     {
-        "id": "f08ba3d0ec182a89",
-        "type": "ui_group",
-        "name": "Timer",
-        "tab": "a38c3d325d960343",
-        "order": 1,
-        "disp": false,
-        "width": "6",
-        "collapse": false,
-        "className": ""
-    },
-    {
         "id": "a38c3d325d960343",
         "type": "ui_tab",
         "name": "Main",
@@ -728,16 +732,6 @@
         "order": 0,
         "disabled": false,
         "hidden": false
-    },
-    {
-        "id": "45013fdfd43f76cb",
-        "type": "ui_spacer",
-        "z": "350f3f1be5bf834e",
-        "name": "spacer",
-        "group": "f08ba3d0ec182a89",
-        "order": 6,
-        "width": "6",
-        "height": "1"
     },
     {
         "id": "3a054ffea2c5314f",
@@ -907,7 +901,7 @@
         "type": "ui_group",
         "name": "Finale Button",
         "tab": "a38c3d325d960343",
-        "order": 8,
+        "order": 7,
         "disp": true,
         "width": "6",
         "collapse": false,
@@ -944,7 +938,7 @@
         "type": "ui_group",
         "name": "Fernbedienung",
         "tab": "a38c3d325d960343",
-        "order": 7,
+        "order": 5,
         "disp": true,
         "width": "6",
         "collapse": false,
@@ -963,7 +957,7 @@
         "type": "ui_group",
         "name": "Manuelle Überbrückung",
         "tab": "a38c3d325d960343",
-        "order": 5,
+        "order": 3,
         "disp": true,
         "width": "6",
         "collapse": false,
@@ -979,7 +973,7 @@
         "type": "ui_group",
         "name": "Labyrinth Schlüssel",
         "tab": "a38c3d325d960343",
-        "order": 6,
+        "order": 4,
         "disp": true,
         "width": "6",
         "collapse": false,
@@ -990,7 +984,7 @@
         "type": "ui_group",
         "name": "Kombinationen",
         "tab": "a38c3d325d960343",
-        "order": 7,
+        "order": 6,
         "disp": true,
         "width": "6",
         "collapse": false,
@@ -1012,6 +1006,138 @@
         "order": 1,
         "disp": true,
         "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "f08ba3d0ec182a89",
+        "type": "ui_group",
+        "name": "Timer",
+        "tab": "a38c3d325d960343",
+        "order": 1,
+        "disp": false,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "45013fdfd43f76cb",
+        "type": "ui_spacer",
+        "z": "350f3f1be5bf834e",
+        "name": "spacer",
+        "group": "f08ba3d0ec182a89",
+        "order": 6,
+        "width": "6",
+        "height": "1"
+    },
+    {
+        "id": "56e247d63cc35f63",
+        "type": "ui_group",
+        "name": "Audio",
+        "tab": "23ef75e422ead84a",
+        "order": 2,
+        "disp": true,
+        "width": 6,
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "1c841a7e5b6c6708",
+        "type": "ui-base",
+        "name": "Mein Dashboard",
+        "path": "/dashboard",
+        "appIcon": "",
+        "includeClientData": true,
+        "acceptsClientConfig": [
+            "ui-notification",
+            "ui-control"
+        ],
+        "showPathInSidebar": false,
+        "headerContent": "page",
+        "navigationStyle": "default",
+        "titleBarStyle": "default",
+        "showReconnectNotification": true,
+        "notificationDisplayTime": 1,
+        "showDisconnectNotification": true,
+        "allowInstall": false
+    },
+    {
+        "id": "84be544227fe1daa",
+        "type": "ui-theme",
+        "name": "Standardthema",
+        "colors": {
+            "surface": "#ffffff",
+            "primary": "#0094CE",
+            "bgPage": "#eeeeee",
+            "groupBg": "#ffffff",
+            "groupOutline": "#cccccc"
+        },
+        "sizes": {
+            "density": "default",
+            "pagePadding": "12px",
+            "groupGap": "12px",
+            "groupBorderRadius": "4px",
+            "widgetGap": "12px"
+        }
+    },
+    {
+        "id": "481fd1d6cb6b0ad4",
+        "type": "ui-page",
+        "name": "Seite 1",
+        "ui": "1c841a7e5b6c6708",
+        "path": "/page1",
+        "icon": "home",
+        "layout": "grid",
+        "theme": "84be544227fe1daa",
+        "breakpoints": [
+            {
+                "name": "Default",
+                "px": 0,
+                "cols": 3
+            },
+            {
+                "name": "Tablet",
+                "px": 576,
+                "cols": 6
+            },
+            {
+                "name": "Small Desktop",
+                "px": 768,
+                "cols": 9
+            },
+            {
+                "name": "Desktop",
+                "px": 1024,
+                "cols": 12
+            }
+        ],
+        "order": 1,
+        "className": "",
+        "visible": "true",
+        "disabled": "false"
+    },
+    {
+        "id": "9f432b56cdd11828",
+        "type": "ui-group",
+        "name": "Gruppe 1",
+        "page": "481fd1d6cb6b0ad4",
+        "width": 6,
+        "height": 1,
+        "order": 1,
+        "showTitle": true,
+        "className": "",
+        "visible": true,
+        "disabled": false,
+        "groupType": "default"
+    },
+    {
+        "id": "63c303958262b710",
+        "type": "ui_group",
+        "name": "Mumble Steuerung",
+        "tab": "23ef75e422ead84a",
+        "order": 3,
+        "disp": true,
+        "width": 6,
         "collapse": false,
         "className": ""
     },
@@ -1256,8 +1382,7 @@
         "name": "On Game Stop",
         "mode": "link",
         "links": [
-            "75a596869f308dab",
-            "ef33beeff378a0e1"
+            "75a596869f308dab"
         ],
         "x": 495,
         "y": 420,
@@ -1294,7 +1419,7 @@
         "z": "350f3f1be5bf834e",
         "name": "Main Flow",
         "info": "This flow contains nodes that define the overall configuration and monitor state of the system.\n",
-        "x": 100,
+        "x": 80,
         "y": 40,
         "wires": []
     },
@@ -1365,24 +1490,7 @@
         "g": "063501cbf8d4d96b",
         "name": "On System Start",
         "links": [
-            "ce5e1241.adb708",
-            "891fa554.e2eb",
-            "42d9fcf53b80577d",
-            "a42117f2.e7b908",
-            "b382fdf1.42dfd",
-            "753e49af.e1fbf8",
-            "ab728aab.10a15",
-            "7a212126.b73c78",
-            "bca49e2.3ae506",
-            "fec95a4b.bb6bf",
-            "84bae66b.0b1488",
-            "91f5a57b8686c80a",
-            "46aaa4960e9ac869",
-            "e4bbd5899d3b356e",
-            "f64afdb2.ae6738",
-            "7fd4506cfed2714b",
-            "c4a8de8b032253c9",
-            "d22e738b256cdec6"
+            "42d9fcf53b80577d"
         ],
         "x": 295,
         "y": 120,
@@ -1395,14 +1503,7 @@
         "g": "063501cbf8d4d96b",
         "name": "On Tick",
         "links": [
-            "81cfa1d4.86b898",
-            "75a596869f308dab",
-            "d9928e8d.c5c588",
-            "c0f514cb.a0e9c8",
-            "e1535ac3.a19198",
-            "e4a697a8.359b38",
-            "8bdfc662.b74d28",
-            "fde61d47216f1287"
+            "75a596869f308dab"
         ],
         "x": 295,
         "y": 180,
@@ -1494,25 +1595,7 @@
         "z": "350f3f1be5bf834e",
         "name": "On System Start",
         "links": [
-            "ce5e1241.adb708",
-            "891fa554.e2eb",
-            "a42117f2.e7b908",
-            "b382fdf1.42dfd",
-            "753e49af.e1fbf8",
-            "ab728aab.10a15",
-            "7a212126.b73c78",
-            "bca49e2.3ae506",
-            "fec95a4b.bb6bf",
-            "84bae66b.0b1488",
-            "91f5a57b8686c80a",
-            "46aaa4960e9ac869",
-            "e4bbd5899d3b356e",
-            "f64afdb2.ae6738",
-            "7fd4506cfed2714b",
-            "c4a8de8b032253c9",
-            "d22e738b256cdec6",
-            "75a596869f308dab",
-            "fde61d47216f1287"
+            "75a596869f308dab"
         ],
         "x": 695,
         "y": 120,
@@ -2047,11 +2130,10 @@
             "08e07260fa52cab4",
             "693059c785fa5aa1",
             "0310f154567fe3d2",
-            "3e424f9264623ca0",
-            "5eef09a39da1c4a4",
             "d19021453aa568b0",
             "898e0662e2cd143c",
-            "00a6e47a5978891b"
+            "00a6e47a5978891b",
+            "d6b3abed88bd8190"
         ],
         "x": 495,
         "y": 380,
@@ -2072,11 +2154,10 @@
             "08e07260fa52cab4",
             "693059c785fa5aa1",
             "0310f154567fe3d2",
-            "3e424f9264623ca0",
-            "5eef09a39da1c4a4",
             "d19021453aa568b0",
             "898e0662e2cd143c",
-            "00a6e47a5978891b"
+            "00a6e47a5978891b",
+            "d6b3abed88bd8190"
         ],
         "x": 495,
         "y": 460,
@@ -2188,12 +2269,11 @@
             "08e07260fa52cab4",
             "693059c785fa5aa1",
             "0310f154567fe3d2",
-            "3e424f9264623ca0",
-            "5eef09a39da1c4a4",
             "d19021453aa568b0",
             "898e0662e2cd143c",
             "5243cbee3ef87c8c",
-            "00a6e47a5978891b"
+            "00a6e47a5978891b",
+            "d6b3abed88bd8190"
         ],
         "x": 495,
         "y": 540,
@@ -2405,7 +2485,7 @@
         "freq": "",
         "out": "out",
         "bcm": true,
-        "x": 550,
+        "x": 650,
         "y": 140,
         "wires": []
     },
@@ -2418,7 +2498,7 @@
         "label": "Alarm",
         "tooltip": "",
         "group": "b33c16c8e02f206e",
-        "order": 3,
+        "order": 4,
         "width": 0,
         "height": 0,
         "passthru": true,
@@ -2436,7 +2516,7 @@
         "offcolor": "",
         "animate": false,
         "className": "",
-        "x": 390,
+        "x": 490,
         "y": 140,
         "wires": [
             [
@@ -2452,11 +2532,11 @@
         "type": "link in",
         "z": "bc3f40f178b15cc3",
         "g": "eaeca8afb05066c4",
-        "name": "alarm",
+        "name": "alarm In 2",
         "links": [
             "21d47c54a97169e3",
-            "e24e2635213fc060",
-            "db4d6d56bb684e72"
+            "db4d6d56bb684e72",
+            "e24e2635213fc060"
         ],
         "x": 85,
         "y": 140,
@@ -2507,7 +2587,7 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 210,
+        "x": 290,
         "y": 140,
         "wires": [
             [
@@ -3017,7 +3097,7 @@
         "checkall": "true",
         "repair": false,
         "outputs": 2,
-        "x": 530,
+        "x": 630,
         "y": 200,
         "wires": [
             [
@@ -3088,7 +3168,7 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 570,
+        "x": 670,
         "y": 100,
         "wires": [
             []
@@ -3506,7 +3586,7 @@
         "out": "out",
         "bcm": true,
         "x": 470,
-        "y": 500,
+        "y": 560,
         "wires": []
     },
     {
@@ -3537,7 +3617,7 @@
         "animate": false,
         "className": "",
         "x": 470,
-        "y": 440,
+        "y": 500,
         "wires": [
             [
                 "f46246e7cdbf73d5"
@@ -3985,7 +4065,7 @@
         "to": "",
         "reg": false,
         "x": 220,
-        "y": 440,
+        "y": 500,
         "wires": [
             [
                 "36625b582d6be3e5"
@@ -4011,7 +4091,7 @@
         "allowrate": false,
         "outputs": 1,
         "x": 210,
-        "y": 400,
+        "y": 460,
         "wires": [
             [
                 "4344d09d9b3ba89c"
@@ -4422,7 +4502,7 @@
         "label": "Kistenmagnet öffnen",
         "tooltip": "",
         "group": "b33c16c8e02f206e",
-        "order": 4,
+        "order": 5,
         "width": 0,
         "height": 0,
         "passthru": true,
@@ -4456,7 +4536,7 @@
         "z": "bc3f40f178b15cc3",
         "g": "1152848392bbf23c",
         "group": "b33c16c8e02f206e",
-        "order": 5,
+        "order": 6,
         "width": 0,
         "height": 0,
         "name": "gelöst",
@@ -4706,7 +4786,7 @@
         "z": "bc3f40f178b15cc3",
         "g": "cf687ff36e48ebd7",
         "name": "debug 1",
-        "active": true,
+        "active": false,
         "tosidebar": true,
         "console": false,
         "tostatus": true,
@@ -5297,10 +5377,10 @@
         "read": true,
         "bcm": true,
         "x": 130,
-        "y": 280,
+        "y": 300,
         "wires": [
             [
-                "bf54df11bd801a3a"
+                "2d804e6e7e5f82d5"
             ]
         ]
     },
@@ -5314,19 +5394,17 @@
         "propertyType": "msg",
         "rules": [
             {
-                "t": "eq",
-                "v": "0",
-                "vt": "num"
+                "t": "false"
             }
         ],
         "checkall": "true",
         "repair": false,
         "outputs": 1,
-        "x": 450,
-        "y": 280,
+        "x": 410,
+        "y": 240,
         "wires": [
             [
-                "2d804e6e7e5f82d5"
+                "8b5921c86f734835"
             ]
         ]
     },
@@ -5656,19 +5734,19 @@
                 "t": "change",
                 "p": "payload",
                 "pt": "msg",
-                "from": "0",
+                "from": "1",
                 "fromt": "num",
-                "to": "1",
-                "tot": "num"
+                "to": "false",
+                "tot": "bool"
             },
             {
                 "t": "change",
                 "p": "payload",
                 "pt": "msg",
-                "from": "1",
+                "from": "0",
                 "fromt": "num",
-                "to": "0",
-                "tot": "num"
+                "to": "true",
+                "tot": "bool"
             }
         ],
         "action": "",
@@ -5676,8 +5754,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 290,
-        "y": 280,
+        "x": 250,
+        "y": 240,
         "wires": [
             [
                 "54716b964da95261"
@@ -5689,7 +5767,7 @@
         "type": "link in",
         "z": "bc3f40f178b15cc3",
         "g": "eaeca8afb05066c4",
-        "name": "finale button",
+        "name": "Alarm In",
         "links": [
             "21d47c54a97169e3",
             "db4d6d56bb684e72",
@@ -5742,7 +5820,7 @@
         "label": "Rätsel blockieren",
         "tooltip": "",
         "group": "b33c16c8e02f206e",
-        "order": 5,
+        "order": 7,
         "width": 0,
         "height": 0,
         "passthru": true,
@@ -5813,10 +5891,140 @@
         "checkall": "true",
         "repair": false,
         "outputs": 2,
-        "x": 340,
-        "y": 220,
+        "x": 260,
+        "y": 300,
         "wires": [
             [],
+            [
+                "57e51b8245a2d410"
+            ]
+        ]
+    },
+    {
+        "id": "57e51b8245a2d410",
+        "type": "ui_switch",
+        "z": "bc3f40f178b15cc3",
+        "g": "eaeca8afb05066c4",
+        "name": "",
+        "label": "Lüftung zugemauert",
+        "tooltip": "",
+        "group": "b33c16c8e02f206e",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "decouple": "false",
+        "topic": "topic",
+        "topicType": "msg",
+        "style": "",
+        "onvalue": "1",
+        "onvalueType": "num",
+        "onicon": "",
+        "oncolor": "",
+        "offvalue": "0",
+        "offvalueType": "num",
+        "officon": "",
+        "offcolor": "",
+        "animate": false,
+        "className": "",
+        "x": 460,
+        "y": 300,
+        "wires": [
+            [
+                "bf54df11bd801a3a"
+            ]
+        ]
+    },
+    {
+        "id": "d6b3abed88bd8190",
+        "type": "link in",
+        "z": "bc3f40f178b15cc3",
+        "g": "eaeca8afb05066c4",
+        "name": "alarm In 3",
+        "links": [
+            "21d47c54a97169e3",
+            "db4d6d56bb684e72",
+            "e24e2635213fc060"
+        ],
+        "x": 75,
+        "y": 340,
+        "wires": [
+            [
+                "348cd4de52f3af5e"
+            ]
+        ]
+    },
+    {
+        "id": "348cd4de52f3af5e",
+        "type": "change",
+        "z": "bc3f40f178b15cc3",
+        "g": "eaeca8afb05066c4",
+        "name": "",
+        "rules": [
+            {
+                "t": "change",
+                "p": "payload",
+                "pt": "msg",
+                "from": "start",
+                "fromt": "str",
+                "to": "0",
+                "tot": "num"
+            },
+            {
+                "t": "change",
+                "p": "payload",
+                "pt": "msg",
+                "from": "stop",
+                "fromt": "str",
+                "to": "0",
+                "tot": "num"
+            },
+            {
+                "t": "change",
+                "p": "payload",
+                "pt": "msg",
+                "from": "reset",
+                "fromt": "str",
+                "to": "0",
+                "tot": "num"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 210,
+        "y": 340,
+        "wires": [
+            [
+                "57e51b8245a2d410"
+            ]
+        ]
+    },
+    {
+        "id": "8b5921c86f734835",
+        "type": "change",
+        "z": "bc3f40f178b15cc3",
+        "g": "eaeca8afb05066c4",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "0",
+                "tot": "num"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 290,
+        "y": 180,
+        "wires": [
             [
                 "a64be0597031f9c8"
             ]
@@ -5958,8 +6166,8 @@
         "topic": "",
         "payload": "",
         "payloadType": "date",
-        "x": 190,
-        "y": 160,
+        "x": 130,
+        "y": 140,
         "wires": [
             [
                 "8f9f1fe.3f891e"
@@ -5978,8 +6186,8 @@
         "timer": "",
         "winHide": false,
         "name": "reboot Pi",
-        "x": 380,
-        "y": 160,
+        "x": 320,
+        "y": 140,
         "wires": [
             [],
             [],
@@ -5998,8 +6206,8 @@
         "timer": "",
         "winHide": false,
         "name": "turn off Pi",
-        "x": 380,
-        "y": 220,
+        "x": 320,
+        "y": 200,
         "wires": [
             [],
             [],
@@ -6028,8 +6236,8 @@
         "topic": "",
         "payload": "",
         "payloadType": "date",
-        "x": 200,
-        "y": 220,
+        "x": 140,
+        "y": 200,
         "wires": [
             [
                 "a90f2b9434c70e93"
@@ -6057,8 +6265,8 @@
         "payloadType": "str",
         "topic": "topic",
         "topicType": "msg",
-        "x": 200,
-        "y": 100,
+        "x": 140,
+        "y": 80,
         "wires": [
             [
                 "8f9f1fe.3f891e"
@@ -6086,8 +6294,8 @@
         "payloadType": "str",
         "topic": "topic",
         "topicType": "msg",
-        "x": 220,
-        "y": 280,
+        "x": 160,
+        "y": 260,
         "wires": [
             [
                 "a90f2b9434c70e93"
@@ -6095,823 +6303,339 @@
         ]
     },
     {
-        "id": "595ffa42b5b38bed",
-        "type": "rpi-gpio out",
-        "z": "b365465971930594",
-        "name": "",
-        "pin": "16",
-        "set": true,
-        "level": "1",
-        "freq": "",
-        "out": "out",
-        "bcm": true,
-        "x": 620,
-        "y": 840,
-        "wires": []
-    },
-    {
-        "id": "41b60f87bcecdd1c",
-        "type": "rpi-gpio out",
-        "z": "b365465971930594",
-        "name": "",
-        "pin": "6",
-        "set": true,
-        "level": "1",
-        "freq": "",
-        "out": "out",
-        "bcm": true,
-        "x": 620,
-        "y": 740,
-        "wires": []
-    },
-    {
-        "id": "b573f57d.6290e8",
-        "type": "ui_button",
-        "z": "b365465971930594",
-        "name": "",
-        "group": "7b21dcfa8c25f756",
-        "order": 3,
-        "width": 0,
-        "height": 0,
-        "passthru": false,
-        "label": "Senden",
+        "id": "786fb2030d54ac2d",
+        "type": "ui_slider",
+        "z": "3fc41409a7a06018",
+        "g": "52f080aef4b691e8",
+        "name": "Lautstärkeregler",
+        "label": "Lautstärke Raspberry Pi",
         "tooltip": "",
-        "color": "",
-        "bgcolor": "",
-        "className": "",
-        "icon": "",
-        "payload": "textInput",
-        "payloadType": "flow",
-        "topic": "",
-        "topicType": "str",
-        "x": 180,
-        "y": 420,
-        "wires": [
-            [
-                "cc26e2d4.ffd35",
-                "b42b2908.665408",
-                "8dd93d7766f700e8"
-            ]
-        ]
-    },
-    {
-        "id": "1330b995.eb0626",
-        "type": "ui_text_input",
-        "z": "b365465971930594",
-        "name": "",
-        "label": "",
-        "tooltip": "",
-        "group": "7b21dcfa8c25f756",
+        "group": "56e247d63cc35f63",
         "order": 1,
-        "width": 0,
-        "height": 0,
+        "width": 6,
+        "height": 1,
         "passthru": true,
-        "mode": "text",
-        "delay": "100",
-        "topic": "",
-        "sendOnBlur": true,
-        "className": "",
+        "outs": "all",
+        "topic": "volume",
         "topicType": "str",
-        "x": 240,
-        "y": 320,
+        "min": 0,
+        "max": 100,
+        "step": 1,
+        "className": "",
+        "x": 280,
+        "y": 380,
         "wires": [
             [
-                "7ba1f4df.b12a7c",
-                "2ffeee02.29d762"
+                "bc2387735271bc15"
             ]
         ]
     },
     {
-        "id": "cc26e2d4.ffd35",
+        "id": "bc2387735271bc15",
         "type": "function",
-        "z": "b365465971930594",
-        "name": "str to array + 3",
-        "func": "//msg.payload +=  \" - payload modified in my function\"\n//return msg;\n\nlet output = new Array();\n//output.push(3);\nfor (let char of msg.payload) {\n    if (char == \"0\") {\n        output.push(3,1);\n    }\n    if (char == \"1\") {\n        output.push(3,2);\n    }\n}\noutput.push(3,0)\nmsg.payload = output\nreturn msg;",
+        "z": "3fc41409a7a06018",
+        "g": "52f080aef4b691e8",
+        "name": "Prozent vorbereiten",
+        "func": "let volume = Number(msg.payload);\n\nif (!Number.isFinite(volume)) {\n    return null;\n}\n\nvolume = Math.max(0, Math.min(100, Math.round(volume)));\nmsg.payload = volume + \"%\";\nreturn msg;",
         "outputs": 1,
-        "timeout": "",
+        "timeout": 0,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 460,
-        "y": 420,
+        "x": 480,
+        "y": 380,
         "wires": [
             [
-                "a0241251.a9cc4",
-                "454f78dbbdc08247",
-                "bcad70c7.b9db"
+                "61c7419707c8c961"
             ]
         ]
     },
     {
-        "id": "bcad70c7.b9db",
-        "type": "ui_text",
-        "z": "b365465971930594",
-        "group": "7b21dcfa8c25f756",
-        "order": 2,
-        "width": 0,
-        "height": 0,
-        "name": "",
-        "label": "Zuletzt gesendet:",
-        "format": "{{msg.payload}}",
-        "layout": "row-left",
-        "className": "",
-        "style": false,
-        "font": "",
-        "fontSize": "",
-        "color": "#000000",
-        "x": 670,
-        "y": 480,
-        "wires": []
-    },
-    {
-        "id": "2ffeee02.29d762",
-        "type": "change",
-        "z": "b365465971930594",
-        "name": "",
-        "rules": [
-            {
-                "t": "set",
-                "p": "textInput",
-                "pt": "flow",
-                "to": "payload",
-                "tot": "msg"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 430,
-        "y": 320,
+        "id": "61c7419707c8c961",
+        "type": "exec",
+        "z": "3fc41409a7a06018",
+        "g": "52f080aef4b691e8",
+        "command": "wpctl set-volume @DEFAULT_AUDIO_SINK@",
+        "addpay": "payload",
+        "append": "",
+        "useSpawn": "false",
+        "timer": "",
+        "winHide": false,
+        "oldrc": false,
+        "name": "Systemlautstärke setzen",
+        "x": 750,
+        "y": 380,
         "wires": [
+            [],
             [
-                "fe2d6e02.ad949"
-            ]
-        ]
-    },
-    {
-        "id": "7ba1f4df.b12a7c",
-        "type": "debug",
-        "z": "b365465971930594",
-        "name": "Text entry debug node",
-        "active": true,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": true,
-        "complete": "true",
-        "targetType": "full",
-        "statusVal": "payload",
-        "statusType": "auto",
-        "x": 440,
-        "y": 280,
-        "wires": []
-    },
-    {
-        "id": "b42b2908.665408",
-        "type": "debug",
-        "z": "b365465971930594",
-        "name": "Button click debug node",
-        "active": true,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": true,
-        "complete": "true",
-        "targetType": "full",
-        "statusVal": "payload",
-        "statusType": "auto",
-        "x": 430,
-        "y": 540,
-        "wires": []
-    },
-    {
-        "id": "fe2d6e02.ad949",
-        "type": "switch",
-        "z": "b365465971930594",
-        "name": "is text empty?",
-        "property": "textInput",
-        "propertyType": "flow",
-        "rules": [
-            {
-                "t": "empty"
-            },
-            {
-                "t": "else"
-            }
-        ],
-        "checkall": "true",
-        "repair": false,
-        "outputs": 2,
-        "x": 620,
-        "y": 320,
-        "wires": [
-            [
-                "db2479e4.104468"
+                "c312febc58be81e5"
             ],
             [
-                "fa23a260.4e161"
+                "c312febc58be81e5"
             ]
         ]
     },
     {
-        "id": "db2479e4.104468",
-        "type": "change",
-        "z": "b365465971930594",
-        "name": "enabled false",
-        "rules": [
-            {
-                "t": "set",
-                "p": "enabled",
-                "pt": "msg",
-                "to": "false",
-                "tot": "bool"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 790,
-        "y": 300,
-        "wires": [
-            [
-                "eb06ed9d.7f23f"
-            ]
-        ]
-    },
-    {
-        "id": "fa23a260.4e161",
-        "type": "change",
-        "z": "b365465971930594",
-        "name": "enabled true",
-        "rules": [
-            {
-                "t": "set",
-                "p": "enabled",
-                "pt": "msg",
-                "to": "true",
-                "tot": "bool"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 790,
-        "y": 340,
-        "wires": [
-            [
-                "eb06ed9d.7f23f"
-            ]
-        ]
-    },
-    {
-        "id": "eb06ed9d.7f23f",
-        "type": "link out",
-        "z": "b365465971930594",
-        "name": "",
-        "mode": "link",
-        "links": [
-            "58d47e08.81ffc"
-        ],
-        "x": 915,
-        "y": 320,
+        "id": "c312febc58be81e5",
+        "type": "debug",
+        "z": "3fc41409a7a06018",
+        "g": "52f080aef4b691e8",
+        "name": "Lautstärke Fehler",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 990,
+        "y": 380,
         "wires": []
     },
     {
-        "id": "58d47e08.81ffc",
-        "type": "link in",
-        "z": "b365465971930594",
-        "name": "",
-        "links": [
-            "eb06ed9d.7f23f"
-        ],
-        "x": 85,
-        "y": 420,
-        "wires": [
-            [
-                "b573f57d.6290e8"
-            ]
-        ]
-    },
-    {
-        "id": "93b54b1c.311778",
+        "id": "ec8d2fb3791550f8",
         "type": "inject",
-        "z": "b365465971930594",
-        "name": "Init with empty string",
+        "z": "3fc41409a7a06018",
+        "g": "52f080aef4b691e8",
+        "name": "",
         "props": [
             {
                 "p": "payload"
-            },
-            {
-                "p": "topic",
-                "vt": "str"
             }
         ],
         "repeat": "",
         "crontab": "",
         "once": true,
-        "onceDelay": 0.1,
+        "onceDelay": "5",
         "topic": "",
-        "payload": "",
-        "payloadType": "str",
-        "x": 140,
-        "y": 280,
+        "payload": "100",
+        "payloadType": "num",
+        "x": 130,
+        "y": 380,
         "wires": [
             [
-                "1330b995.eb0626"
+                "786fb2030d54ac2d"
             ]
         ]
     },
     {
-        "id": "a0241251.a9cc4",
+        "id": "74b0727de91a47aa",
+        "type": "inject",
+        "z": "3fc41409a7a06018",
+        "g": "f3060c14867d06d9",
+        "name": "Mumble automatisch starten",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": true,
+        "onceDelay": "10",
+        "topic": "",
+        "payload": "Mumble automatisch starten",
+        "payloadType": "str",
+        "x": 200,
+        "y": 540,
+        "wires": [
+            [
+                "a5689cf1d1166c97",
+                "f7b395d2c4c58541"
+            ]
+        ]
+    },
+    {
+        "id": "a5689cf1d1166c97",
+        "type": "ui_button",
+        "z": "3fc41409a7a06018",
+        "g": "f3060c14867d06d9",
+        "name": "Mumble starten",
+        "group": "63c303958262b710",
+        "order": 1,
+        "width": 3,
+        "height": 1,
+        "passthru": true,
+        "label": "Mumble starten",
+        "tooltip": "Startet Mumble ohne Serververbindung",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "play_arrow",
+        "payload": "bash -lc 'uid=$(id -u); export DISPLAY=:0; export XDG_RUNTIME_DIR=\"/run/user/$uid\"; export DBUS_SESSION_BUS_ADDRESS=\"unix:path=/run/user/$uid/bus\"; log=/tmp/mumble-node-red.log; if pgrep -x mumble >/dev/null; then echo \"Mumble läuft bereits.\"; else echo \"Starte Mumble...\" >\"$log\"; /usr/bin/mumble >>\"$log\" 2>&1 & sleep 5; if pgrep -x mumble >/dev/null; then echo \"Mumble wurde gestartet.\"; else echo \"Mumble konnte nicht gestartet werden. Siehe $log.\" >&2; exit 1; fi; fi'",
+        "payloadType": "str",
+        "topic": "Mumble starten",
+        "topicType": "str",
+        "x": 680,
+        "y": 540,
+        "wires": [
+            [
+                "8f6b7ef483edc25f"
+            ]
+        ]
+    },
+    {
+        "id": "8f6b7ef483edc25f",
+        "type": "exec",
+        "z": "3fc41409a7a06018",
+        "g": "f3060c14867d06d9",
+        "command": "",
+        "addpay": "payload",
+        "append": "",
+        "useSpawn": "false",
+        "timer": "",
+        "winHide": false,
+        "oldrc": false,
+        "name": "Mumble starten",
+        "x": 860,
+        "y": 540,
+        "wires": [
+            [
+                "7806b36b7c59749f"
+            ],
+            [
+                "1f74db221799fc70"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "7806b36b7c59749f",
         "type": "debug",
-        "z": "b365465971930594",
-        "name": "After function debug node",
-        "active": true,
+        "z": "3fc41409a7a06018",
+        "g": "f3060c14867d06d9",
+        "name": "Mumble Start Debug",
+        "active": false,
         "tosidebar": true,
         "console": false,
-        "tostatus": true,
-        "complete": "true",
-        "targetType": "full",
-        "statusVal": "payload",
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
         "statusType": "auto",
-        "x": 760,
+        "x": 1140,
+        "y": 520,
+        "wires": []
+    },
+    {
+        "id": "1f74db221799fc70",
+        "type": "debug",
+        "z": "3fc41409a7a06018",
+        "g": "f3060c14867d06d9",
+        "name": "Mumble Start Error",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1140,
+        "y": 560,
+        "wires": []
+    },
+    {
+        "id": "0f81e7423eb21754",
+        "type": "ui_button",
+        "z": "3fc41409a7a06018",
+        "g": "f3060c14867d06d9",
+        "name": "Mit Server verbinden",
+        "group": "63c303958262b710",
+        "order": 2,
+        "width": 3,
+        "height": 1,
+        "passthru": true,
+        "label": "Mit Server verbinden",
+        "tooltip": "Verbindet Mumble mit dem lokalen Server",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "link",
+        "payload": "bash -lc 'uid=$(id -u); export DISPLAY=:0; export XDG_RUNTIME_DIR=\"/run/user/$uid\"; export DBUS_SESSION_BUS_ADDRESS=\"unix:path=/run/user/$uid/bus\"; log=/tmp/mumble-node-red.log; if ! pgrep -x mumble >/dev/null; then echo \"Mumble läuft nicht. Bitte zuerst Mumble starten.\" >&2; exit 1; fi; echo \"Verbinde mit Mumble-Server...\" >>\"$log\"; /usr/bin/mumble \"mumble://Raummikro@127.0.0.1:64738/\" >>\"$log\" 2>&1; echo \"Verbindungsbefehl wurde ausgeführt.\"'",
+        "payloadType": "str",
+        "topic": "Mit Server verbinden",
+        "topicType": "str",
+        "x": 640,
+        "y": 600,
+        "wires": [
+            [
+                "0a8fa1204f6ab971"
+            ]
+        ]
+    },
+    {
+        "id": "0a8fa1204f6ab971",
+        "type": "exec",
+        "z": "3fc41409a7a06018",
+        "g": "f3060c14867d06d9",
+        "command": "",
+        "addpay": "payload",
+        "append": "",
+        "useSpawn": "false",
+        "timer": "",
+        "winHide": false,
+        "oldrc": false,
+        "name": "Serververbindung öffnen",
+        "x": 870,
+        "y": 600,
+        "wires": [
+            [
+                "b9c962051ff63759"
+            ],
+            [
+                "a534e39964869d20"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "b9c962051ff63759",
+        "type": "debug",
+        "z": "3fc41409a7a06018",
+        "g": "f3060c14867d06d9",
+        "name": "Mumble Verbindung Debug",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1170,
+        "y": 600,
+        "wires": []
+    },
+    {
+        "id": "a534e39964869d20",
+        "type": "debug",
+        "z": "3fc41409a7a06018",
+        "g": "f3060c14867d06d9",
+        "name": "Mumble Verbindung Error",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1170,
         "y": 640,
         "wires": []
     },
     {
-        "id": "0f5b03e0eed3a4aa",
-        "type": "switch",
-        "z": "b365465971930594",
-        "name": "ziffer",
-        "property": "payload",
-        "propertyType": "msg",
-        "rules": [
-            {
-                "t": "eq",
-                "v": "1",
-                "vt": "num"
-            },
-            {
-                "t": "eq",
-                "v": "2",
-                "vt": "num"
-            },
-            {
-                "t": "eq",
-                "v": "3",
-                "vt": "num"
-            },
-            {
-                "t": "eq",
-                "v": "0",
-                "vt": "num"
-            }
-        ],
-        "checkall": "true",
-        "repair": false,
-        "outputs": 4,
-        "x": 250,
-        "y": 760,
-        "wires": [
-            [
-                "0412f5838acec604",
-                "f94354d4862fff74"
-            ],
-            [
-                "4a28f512d33c9f5a",
-                "5e7fce8fa99b1ec3"
-            ],
-            [
-                "0412f5838acec604",
-                "4a28f512d33c9f5a"
-            ],
-            [
-                "5e7fce8fa99b1ec3",
-                "f94354d4862fff74"
-            ]
-        ]
-    },
-    {
-        "id": "6ed5205425eed59e",
+        "id": "f7b395d2c4c58541",
         "type": "delay",
-        "z": "b365465971930594",
-        "name": "",
-        "pauseType": "rate",
-        "timeout": "200",
-        "timeoutUnits": "milliseconds",
-        "rate": "1",
-        "nbRateUnits": "0.1",
-        "rateUnits": "second",
-        "randomFirst": "1",
-        "randomLast": "5",
-        "randomUnits": "seconds",
-        "drop": false,
-        "allowrate": false,
-        "outputs": 1,
-        "x": 820,
-        "y": 420,
-        "wires": [
-            [
-                "e118c792b8b5f5ee"
-            ]
-        ]
-    },
-    {
-        "id": "64ab902fdef5ce20",
-        "type": "inject",
-        "z": "b365465971930594",
-        "name": "0",
-        "props": [
-            {
-                "p": "payload"
-            },
-            {
-                "p": "topic",
-                "vt": "str"
-            }
-        ],
-        "repeat": "",
-        "crontab": "",
-        "once": false,
-        "onceDelay": 0.1,
-        "topic": "",
-        "payload": "",
-        "payloadType": "date",
-        "x": 270,
-        "y": 840,
-        "wires": [
-            [
-                "5e7fce8fa99b1ec3",
-                "f94354d4862fff74"
-            ]
-        ]
-    },
-    {
-        "id": "a0226f5124083af4",
-        "type": "inject",
-        "z": "b365465971930594",
-        "name": "1",
-        "props": [
-            {
-                "p": "payload"
-            },
-            {
-                "p": "topic",
-                "vt": "str"
-            }
-        ],
-        "repeat": "",
-        "crontab": "",
-        "once": false,
-        "onceDelay": 0.1,
-        "topic": "",
-        "payload": "",
-        "payloadType": "date",
-        "x": 270,
-        "y": 880,
-        "wires": [
-            [
-                "0412f5838acec604",
-                "f94354d4862fff74"
-            ]
-        ]
-    },
-    {
-        "id": "70a3df5aecaef14a",
-        "type": "inject",
-        "z": "b365465971930594",
-        "name": "2",
-        "props": [
-            {
-                "p": "payload"
-            },
-            {
-                "p": "topic",
-                "vt": "str"
-            }
-        ],
-        "repeat": "",
-        "crontab": "",
-        "once": false,
-        "onceDelay": 0.1,
-        "topic": "",
-        "payload": "",
-        "payloadType": "date",
-        "x": 270,
-        "y": 920,
-        "wires": [
-            [
-                "4a28f512d33c9f5a",
-                "5e7fce8fa99b1ec3"
-            ]
-        ]
-    },
-    {
-        "id": "7eb753e1affb00ea",
-        "type": "inject",
-        "z": "b365465971930594",
-        "name": "3",
-        "props": [
-            {
-                "p": "payload"
-            },
-            {
-                "p": "topic",
-                "vt": "str"
-            }
-        ],
-        "repeat": "",
-        "crontab": "",
-        "once": false,
-        "onceDelay": 0.1,
-        "topic": "",
-        "payload": "",
-        "payloadType": "date",
-        "x": 270,
-        "y": 960,
-        "wires": [
-            [
-                "0412f5838acec604",
-                "4a28f512d33c9f5a"
-            ]
-        ]
-    },
-    {
-        "id": "f94354d4862fff74",
-        "type": "change",
-        "z": "b365465971930594",
-        "name": "0",
-        "rules": [
-            {
-                "t": "set",
-                "p": "payload",
-                "pt": "msg",
-                "to": "1",
-                "tot": "num"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 490,
-        "y": 820,
-        "wires": [
-            [
-                "595ffa42b5b38bed"
-            ]
-        ]
-    },
-    {
-        "id": "4a28f512d33c9f5a",
-        "type": "change",
-        "z": "b365465971930594",
-        "name": "1",
-        "rules": [
-            {
-                "t": "set",
-                "p": "payload",
-                "pt": "msg",
-                "to": "0",
-                "tot": "num"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 490,
-        "y": 860,
-        "wires": [
-            [
-                "595ffa42b5b38bed"
-            ]
-        ]
-    },
-    {
-        "id": "5e7fce8fa99b1ec3",
-        "type": "change",
-        "z": "b365465971930594",
-        "name": "0",
-        "rules": [
-            {
-                "t": "set",
-                "p": "payload",
-                "pt": "msg",
-                "to": "1",
-                "tot": "num"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 490,
-        "y": 720,
-        "wires": [
-            [
-                "41b60f87bcecdd1c"
-            ]
-        ]
-    },
-    {
-        "id": "0412f5838acec604",
-        "type": "change",
-        "z": "b365465971930594",
-        "name": "1",
-        "rules": [
-            {
-                "t": "set",
-                "p": "payload",
-                "pt": "msg",
-                "to": "0",
-                "tot": "num"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 490,
-        "y": 760,
-        "wires": [
-            [
-                "41b60f87bcecdd1c"
-            ]
-        ]
-    },
-    {
-        "id": "41b03875cde1ec1a",
-        "type": "inject",
-        "z": "b365465971930594",
-        "name": "00110011",
-        "props": [
-            {
-                "p": "payload"
-            },
-            {
-                "p": "topic",
-                "vt": "str"
-            }
-        ],
-        "repeat": "",
-        "crontab": "",
-        "once": false,
-        "onceDelay": 0.1,
-        "topic": "",
-        "payload": "00110011",
-        "payloadType": "str",
-        "x": 160,
-        "y": 480,
-        "wires": [
-            [
-                "cc26e2d4.ffd35"
-            ]
-        ]
-    },
-    {
-        "id": "fd8cdc9bdb47d2d9",
-        "type": "inject",
-        "z": "b365465971930594",
-        "name": "01010101",
-        "props": [
-            {
-                "p": "payload"
-            },
-            {
-                "p": "topic",
-                "vt": "str"
-            }
-        ],
-        "repeat": "",
-        "crontab": "",
-        "once": false,
-        "onceDelay": 0.1,
-        "topic": "",
-        "payload": "01010101",
-        "payloadType": "str",
-        "x": 160,
-        "y": 520,
-        "wires": [
-            [
-                "cc26e2d4.ffd35"
-            ]
-        ]
-    },
-    {
-        "id": "454f78dbbdc08247",
-        "type": "split",
-        "z": "b365465971930594",
-        "name": "",
-        "splt": "\\n",
-        "spltType": "str",
-        "arraySplt": 1,
-        "arraySpltType": "len",
-        "stream": false,
-        "addname": "",
-        "x": 630,
-        "y": 420,
-        "wires": [
-            [
-                "6ed5205425eed59e",
-                "8960c464f6fba3e1"
-            ]
-        ]
-    },
-    {
-        "id": "8960c464f6fba3e1",
-        "type": "debug",
-        "z": "b365465971930594",
-        "name": "After function debug node",
-        "active": true,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": true,
-        "complete": "true",
-        "targetType": "full",
-        "statusVal": "payload",
-        "statusType": "auto",
-        "x": 880,
-        "y": 560,
-        "wires": []
-    },
-    {
-        "id": "8078db693a11a7e3",
-        "type": "inject",
-        "z": "b365465971930594",
-        "name": "00000001",
-        "props": [
-            {
-                "p": "payload"
-            },
-            {
-                "p": "topic",
-                "vt": "str"
-            }
-        ],
-        "repeat": "",
-        "crontab": "",
-        "once": false,
-        "onceDelay": 0.1,
-        "topic": "",
-        "payload": "00000001",
-        "payloadType": "str",
-        "x": 160,
-        "y": 560,
-        "wires": [
-            [
-                "cc26e2d4.ffd35"
-            ]
-        ]
-    },
-    {
-        "id": "3ee472af167706ec",
-        "type": "ui_button",
-        "z": "b365465971930594",
-        "g": "ddbad4a3c3dc8f08",
-        "name": "",
-        "group": "7b21dcfa8c25f756",
-        "order": 3,
-        "width": 0,
-        "height": 0,
-        "passthru": false,
-        "label": "Reset Fernbedienungs Input",
-        "tooltip": "",
-        "color": "",
-        "bgcolor": "",
-        "className": "",
-        "icon": "",
-        "payload": "",
-        "payloadType": "str",
-        "topic": "topic",
-        "topicType": "msg",
-        "x": 260,
-        "y": 120,
-        "wires": [
-            [
-                "364ace566a5eb150",
-                "9f5fce6aecd7222c"
-            ]
-        ]
-    },
-    {
-        "id": "266bfa28dd9f85fb",
-        "type": "delay",
-        "z": "b365465971930594",
-        "g": "ddbad4a3c3dc8f08",
+        "z": "3fc41409a7a06018",
+        "g": "f3060c14867d06d9",
         "name": "",
         "pauseType": "delay",
-        "timeout": "100",
-        "timeoutUnits": "milliseconds",
+        "timeout": "5",
+        "timeoutUnits": "seconds",
         "rate": "1",
         "nbRateUnits": "1",
         "rateUnits": "second",
@@ -6921,164 +6645,12 @@
         "drop": false,
         "allowrate": false,
         "outputs": 1,
-        "x": 720,
-        "y": 160,
+        "x": 440,
+        "y": 600,
         "wires": [
             [
-                "1d5426bf0220188b"
+                "0f81e7423eb21754"
             ]
         ]
-    },
-    {
-        "id": "364ace566a5eb150",
-        "type": "change",
-        "z": "b365465971930594",
-        "g": "ddbad4a3c3dc8f08",
-        "name": "3",
-        "rules": [
-            {
-                "t": "set",
-                "p": "payload",
-                "pt": "msg",
-                "to": "3",
-                "tot": "num"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 530,
-        "y": 120,
-        "wires": [
-            [
-                "1d5426bf0220188b"
-            ]
-        ]
-    },
-    {
-        "id": "9f5fce6aecd7222c",
-        "type": "change",
-        "z": "b365465971930594",
-        "g": "ddbad4a3c3dc8f08",
-        "name": "0",
-        "rules": [
-            {
-                "t": "set",
-                "p": "payload",
-                "pt": "msg",
-                "to": "0",
-                "tot": "num"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 530,
-        "y": 160,
-        "wires": [
-            [
-                "266bfa28dd9f85fb"
-            ]
-        ]
-    },
-    {
-        "id": "8cd6e794827e9484",
-        "type": "link in",
-        "z": "b365465971930594",
-        "name": "Fernbedienungs Ziffern",
-        "links": [
-            "e118c792b8b5f5ee",
-            "1d5426bf0220188b"
-        ],
-        "x": 165,
-        "y": 760,
-        "wires": [
-            [
-                "0f5b03e0eed3a4aa"
-            ]
-        ]
-    },
-    {
-        "id": "e118c792b8b5f5ee",
-        "type": "link out",
-        "z": "b365465971930594",
-        "name": "Code Translator out",
-        "mode": "link",
-        "links": [
-            "8cd6e794827e9484"
-        ],
-        "x": 965,
-        "y": 420,
-        "wires": []
-    },
-    {
-        "id": "1d5426bf0220188b",
-        "type": "link out",
-        "z": "b365465971930594",
-        "g": "ddbad4a3c3dc8f08",
-        "name": "Code Translator out",
-        "mode": "link",
-        "links": [
-            "8cd6e794827e9484"
-        ],
-        "x": 885,
-        "y": 120,
-        "wires": []
-    },
-    {
-        "id": "0a6601fb4077ba94",
-        "type": "inject",
-        "z": "b365465971930594",
-        "g": "ddbad4a3c3dc8f08",
-        "name": "Reset Fernbedienungs Input",
-        "props": [
-            {
-                "p": "payload"
-            },
-            {
-                "p": "topic",
-                "vt": "str"
-            }
-        ],
-        "repeat": "",
-        "crontab": "",
-        "once": false,
-        "onceDelay": 0.1,
-        "topic": "",
-        "payload": "",
-        "payloadType": "date",
-        "x": 260,
-        "y": 160,
-        "wires": [
-            [
-                "9f5fce6aecd7222c",
-                "364ace566a5eb150"
-            ]
-        ]
-    },
-    {
-        "id": "8dd93d7766f700e8",
-        "type": "ui_text",
-        "z": "b365465971930594",
-        "group": "7b21dcfa8c25f756",
-        "order": 2,
-        "width": 0,
-        "height": 0,
-        "name": "",
-        "label": "letzter Input:",
-        "format": "{{msg.payload}}",
-        "layout": "row-left",
-        "className": "",
-        "style": false,
-        "font": "",
-        "fontSize": "",
-        "color": "#000000",
-        "x": 450,
-        "y": 460,
-        "wires": []
     }
 ]

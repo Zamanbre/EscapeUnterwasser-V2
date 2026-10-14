@@ -3,7 +3,9 @@
     "description": "Ein Node-RED-Projekt",
     "version": "0.0.1",
     "dependencies": {
-        "node-red-contrib-uibuilder": "6.8.2"
+        "node-red-contrib-uibuilder": "6.8.2",
+        "node-red-dashboard": "3.6.6",
+        "@flowfuse/node-red-dashboard": "1.31.0"
     },
     "node-red": {
         "settings": {
