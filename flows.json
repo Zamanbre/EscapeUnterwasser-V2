@@ -1042,6 +1042,17 @@
         "className": ""
     },
     {
+        "id": "63c303958262b710",
+        "type": "ui_group",
+        "name": "Mumble Steuerung",
+        "tab": "23ef75e422ead84a",
+        "order": 3,
+        "disp": true,
+        "width": 6,
+        "collapse": false,
+        "className": ""
+    },
+    {
         "id": "1c841a7e5b6c6708",
         "type": "ui-base",
         "name": "Mein Dashboard",
@@ -1129,17 +1140,6 @@
         "visible": true,
         "disabled": false,
         "groupType": "default"
-    },
-    {
-        "id": "63c303958262b710",
-        "type": "ui_group",
-        "name": "Mumble Steuerung",
-        "tab": "23ef75e422ead84a",
-        "order": 3,
-        "disp": true,
-        "width": 6,
-        "collapse": false,
-        "className": ""
     },
     {
         "id": "4a56258a14858018",
@@ -2285,7 +2285,7 @@
         "z": "350f3f1be5bf834e",
         "name": "NCD HH",
         "info": "",
-        "x": 260,
+        "x": 280,
         "y": 40,
         "wires": []
     },
