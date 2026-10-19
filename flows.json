@@ -6442,6 +6442,7 @@
         "id": "74b0727de91a47aa",
         "type": "inject",
         "z": "3fc41409a7a06018",
+        "d": true,
         "g": "f3060c14867d06d9",
         "name": "Mumble automatisch starten",
         "props": [
