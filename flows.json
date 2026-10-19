@@ -6790,7 +6790,7 @@
         "color": "",
         "bgcolor": "",
         "className": "",
-        "icon": "square",
+        "icon": "stop",
         "payload": "systemctl --user stop mumble-client.service",
         "payloadType": "str",
         "topic": "Mumble stoppen",
