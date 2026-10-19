@@ -299,11 +299,15 @@
             "a90f2b9434c70e93",
             "eda8aacd2cd8f506",
             "f526ea0477fe7a84",
-            "0d8e930bb6631647"
+            "0d8e930bb6631647",
+            "a41bfecc4119c4c7",
+            "700f8d9d9e9f9965",
+            "e8d55bd92a94155c",
+            "06169b3e3ec494c5"
         ],
         "x": 34,
         "y": 39,
-        "w": 372,
+        "w": 812,
         "h": 262
     },
     {
@@ -6180,7 +6184,8 @@
         "y": 140,
         "wires": [
             [
-                "8f9f1fe.3f891e"
+                "e8d55bd92a94155c",
+                "a41bfecc4119c4c7"
             ]
         ]
     },
@@ -6196,8 +6201,8 @@
         "timer": "",
         "winHide": false,
         "name": "reboot Pi",
-        "x": 320,
-        "y": 140,
+        "x": 760,
+        "y": 100,
         "wires": [
             [],
             [],
@@ -6216,8 +6221,8 @@
         "timer": "",
         "winHide": false,
         "name": "turn off Pi",
-        "x": 320,
-        "y": 200,
+        "x": 760,
+        "y": 240,
         "wires": [
             [],
             [],
@@ -6250,7 +6255,7 @@
         "y": 200,
         "wires": [
             [
-                "a90f2b9434c70e93"
+                "700f8d9d9e9f9965"
             ]
         ]
     },
@@ -6279,7 +6284,8 @@
         "y": 80,
         "wires": [
             [
-                "8f9f1fe.3f891e"
+                "e8d55bd92a94155c",
+                "a41bfecc4119c4c7"
             ]
         ]
     },
@@ -6308,7 +6314,7 @@
         "y": 260,
         "wires": [
             [
-                "a90f2b9434c70e93"
+                "700f8d9d9e9f9965"
             ]
         ]
     },
@@ -6660,6 +6666,100 @@
         "wires": [
             [
                 "0f81e7423eb21754"
+            ]
+        ]
+    },
+    {
+        "id": "a41bfecc4119c4c7",
+        "type": "exec",
+        "z": "3fc41409a7a06018",
+        "g": "20ba795cfae420ee",
+        "command": "espeak-ng -v de \"Raspberry Pi wird neugestartet\"",
+        "addpay": "",
+        "append": "",
+        "useSpawn": "false",
+        "timer": "",
+        "winHide": false,
+        "oldrc": false,
+        "name": "",
+        "x": 470,
+        "y": 140,
+        "wires": [
+            [],
+            [],
+            []
+        ]
+    },
+    {
+        "id": "700f8d9d9e9f9965",
+        "type": "exec",
+        "z": "3fc41409a7a06018",
+        "g": "20ba795cfae420ee",
+        "command": "espeak-ng -v de \"Raspberry Pi wird heruntergefahren\"",
+        "addpay": "",
+        "append": "",
+        "useSpawn": "false",
+        "timer": "",
+        "winHide": false,
+        "oldrc": false,
+        "name": "",
+        "x": 480,
+        "y": 200,
+        "wires": [
+            [],
+            [],
+            []
+        ]
+    },
+    {
+        "id": "e8d55bd92a94155c",
+        "type": "delay",
+        "z": "3fc41409a7a06018",
+        "g": "20ba795cfae420ee",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "3",
+        "timeoutUnits": "seconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "allowrate": false,
+        "outputs": 1,
+        "x": 460,
+        "y": 100,
+        "wires": [
+            [
+                "8f9f1fe.3f891e"
+            ]
+        ]
+    },
+    {
+        "id": "06169b3e3ec494c5",
+        "type": "delay",
+        "z": "3fc41409a7a06018",
+        "g": "20ba795cfae420ee",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "3",
+        "timeoutUnits": "seconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "allowrate": false,
+        "outputs": 1,
+        "x": 460,
+        "y": 240,
+        "wires": [
+            [
+                "a90f2b9434c70e93"
             ]
         ]
     }
