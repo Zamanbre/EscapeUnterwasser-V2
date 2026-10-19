@@ -6904,7 +6904,7 @@
         "type": "exec",
         "z": "3fc41409a7a06018",
         "g": "20ba795cfae420ee",
-        "command": "espeak-ng -v de \"Raspberry Pi gestartet\"",
+        "command": "espeak-ng -v de \"gestartet\"",
         "addpay": "",
         "append": "",
         "useSpawn": "false",
@@ -6912,7 +6912,7 @@
         "winHide": false,
         "oldrc": false,
         "name": "",
-        "x": 420,
+        "x": 380,
         "y": 340,
         "wires": [
             [],
