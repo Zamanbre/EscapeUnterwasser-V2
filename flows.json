@@ -368,9 +368,9 @@
             "a534e39964869d20",
             "f7b395d2c4c58541"
         ],
-        "x": 34,
+        "x": 14,
         "y": 479,
-        "w": 1302,
+        "w": 1322,
         "h": 202
     },
     {
@@ -6442,7 +6442,6 @@
         "id": "74b0727de91a47aa",
         "type": "inject",
         "z": "3fc41409a7a06018",
-        "d": true,
         "g": "f3060c14867d06d9",
         "name": "Mumble automatisch starten",
         "props": [
@@ -6455,13 +6454,12 @@
         "once": true,
         "onceDelay": "10",
         "topic": "",
-        "payload": "Mumble automatisch starten",
+        "payload": "Mumble automatisch verbinden",
         "payloadType": "str",
-        "x": 200,
-        "y": 540,
+        "x": 180,
+        "y": 600,
         "wires": [
             [
-                "a5689cf1d1166c97",
                 "f7b395d2c4c58541"
             ]
         ]
@@ -6483,7 +6481,7 @@
         "bgcolor": "",
         "className": "",
         "icon": "play_arrow",
-        "payload": "bash -lc 'uid=$(id -u); export DISPLAY=:0; export XDG_RUNTIME_DIR=\"/run/user/$uid\"; export DBUS_SESSION_BUS_ADDRESS=\"unix:path=/run/user/$uid/bus\"; log=/tmp/mumble-node-red.log; if pgrep -x mumble >/dev/null; then echo \"Mumble läuft bereits.\"; else echo \"Starte Mumble...\" >\"$log\"; /usr/bin/mumble >>\"$log\" 2>&1 & sleep 5; if pgrep -x mumble >/dev/null; then echo \"Mumble wurde gestartet.\"; else echo \"Mumble konnte nicht gestartet werden. Siehe $log.\" >&2; exit 1; fi; fi'",
+        "payload": "systemctl --user start mumble-client.service",
         "payloadType": "str",
         "topic": "Mumble starten",
         "topicType": "str",
@@ -6653,7 +6651,7 @@
         "g": "f3060c14867d06d9",
         "name": "",
         "pauseType": "delay",
-        "timeout": "5",
+        "timeout": "10",
         "timeoutUnits": "seconds",
         "rate": "1",
         "nbRateUnits": "1",
@@ -6664,7 +6662,7 @@
         "drop": false,
         "allowrate": false,
         "outputs": 1,
-        "x": 440,
+        "x": 430,
         "y": 600,
         "wires": [
             [
