@@ -303,12 +303,13 @@
             "a41bfecc4119c4c7",
             "700f8d9d9e9f9965",
             "e8d55bd92a94155c",
-            "06169b3e3ec494c5"
+            "06169b3e3ec494c5",
+            "73f3d933e75630d3"
         ],
-        "x": 34,
+        "x": 14,
         "y": 39,
         "w": 812,
-        "h": 262
+        "h": 282
     },
     {
         "id": "7ecce9efbd1c9926",
@@ -343,7 +344,7 @@
             "c312febc58be81e5",
             "ec8d2fb3791550f8"
         ],
-        "x": 34,
+        "x": 14,
         "y": 331.5,
         "w": 1092,
         "h": 97
@@ -366,12 +367,17 @@
             "0a8fa1204f6ab971",
             "b9c962051ff63759",
             "a534e39964869d20",
-            "f7b395d2c4c58541"
+            "f7b395d2c4c58541",
+            "bd64a812977a3b77",
+            "6e7c4e5fe839bb73",
+            "163259693e1a7e02",
+            "d9283b3d1df30fa8",
+            "c632afe08641f692"
         ],
         "x": 14,
-        "y": 479,
+        "y": 439,
         "w": 1322,
-        "h": 202
+        "h": 282
     },
     {
         "id": "66fa805ea904e05b",
@@ -6180,12 +6186,13 @@
         "topic": "",
         "payload": "",
         "payloadType": "date",
-        "x": 130,
+        "x": 110,
         "y": 140,
         "wires": [
             [
                 "e8d55bd92a94155c",
-                "a41bfecc4119c4c7"
+                "a41bfecc4119c4c7",
+                "73f3d933e75630d3"
             ]
         ]
     },
@@ -6201,7 +6208,7 @@
         "timer": "",
         "winHide": false,
         "name": "reboot Pi",
-        "x": 760,
+        "x": 740,
         "y": 100,
         "wires": [
             [],
@@ -6221,8 +6228,8 @@
         "timer": "",
         "winHide": false,
         "name": "turn off Pi",
-        "x": 760,
-        "y": 240,
+        "x": 740,
+        "y": 260,
         "wires": [
             [],
             [],
@@ -6251,12 +6258,13 @@
         "topic": "",
         "payload": "",
         "payloadType": "date",
-        "x": 140,
-        "y": 200,
+        "x": 120,
+        "y": 220,
         "wires": [
             [
                 "700f8d9d9e9f9965",
-                "06169b3e3ec494c5"
+                "06169b3e3ec494c5",
+                "73f3d933e75630d3"
             ]
         ]
     },
@@ -6281,12 +6289,13 @@
         "payloadType": "str",
         "topic": "topic",
         "topicType": "msg",
-        "x": 140,
+        "x": 120,
         "y": 80,
         "wires": [
             [
                 "e8d55bd92a94155c",
-                "a41bfecc4119c4c7"
+                "a41bfecc4119c4c7",
+                "73f3d933e75630d3"
             ]
         ]
     },
@@ -6311,12 +6320,13 @@
         "payloadType": "str",
         "topic": "topic",
         "topicType": "msg",
-        "x": 160,
-        "y": 260,
+        "x": 140,
+        "y": 280,
         "wires": [
             [
                 "700f8d9d9e9f9965",
-                "06169b3e3ec494c5"
+                "06169b3e3ec494c5",
+                "73f3d933e75630d3"
             ]
         ]
     },
@@ -6340,7 +6350,7 @@
         "max": 100,
         "step": 1,
         "className": "",
-        "x": 280,
+        "x": 260,
         "y": 380,
         "wires": [
             [
@@ -6361,7 +6371,7 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 480,
+        "x": 460,
         "y": 380,
         "wires": [
             [
@@ -6382,7 +6392,7 @@
         "winHide": false,
         "oldrc": false,
         "name": "Systemlautstärke setzen",
-        "x": 750,
+        "x": 730,
         "y": 380,
         "wires": [
             [],
@@ -6408,7 +6418,7 @@
         "targetType": "msg",
         "statusVal": "",
         "statusType": "auto",
-        "x": 990,
+        "x": 970,
         "y": 380,
         "wires": []
     },
@@ -6430,7 +6440,7 @@
         "topic": "",
         "payload": "100",
         "payloadType": "num",
-        "x": 130,
+        "x": 110,
         "y": 380,
         "wires": [
             [
@@ -6457,7 +6467,7 @@
         "payload": "Mumble automatisch verbinden",
         "payloadType": "str",
         "x": 180,
-        "y": 600,
+        "y": 560,
         "wires": [
             [
                 "f7b395d2c4c58541"
@@ -6486,7 +6496,7 @@
         "topic": "Mumble starten",
         "topicType": "str",
         "x": 680,
-        "y": 540,
+        "y": 500,
         "wires": [
             [
                 "8f6b7ef483edc25f"
@@ -6507,7 +6517,7 @@
         "oldrc": false,
         "name": "Mumble starten",
         "x": 860,
-        "y": 540,
+        "y": 500,
         "wires": [
             [
                 "7806b36b7c59749f"
@@ -6533,7 +6543,7 @@
         "statusVal": "",
         "statusType": "auto",
         "x": 1140,
-        "y": 520,
+        "y": 480,
         "wires": []
     },
     {
@@ -6551,7 +6561,7 @@
         "statusVal": "",
         "statusType": "auto",
         "x": 1140,
-        "y": 560,
+        "y": 520,
         "wires": []
     },
     {
@@ -6576,7 +6586,7 @@
         "topic": "Mit Server verbinden",
         "topicType": "str",
         "x": 640,
-        "y": 600,
+        "y": 560,
         "wires": [
             [
                 "0a8fa1204f6ab971"
@@ -6597,7 +6607,7 @@
         "oldrc": false,
         "name": "Serververbindung öffnen",
         "x": 870,
-        "y": 600,
+        "y": 560,
         "wires": [
             [
                 "b9c962051ff63759"
@@ -6623,7 +6633,7 @@
         "statusVal": "",
         "statusType": "auto",
         "x": 1170,
-        "y": 600,
+        "y": 560,
         "wires": []
     },
     {
@@ -6641,7 +6651,7 @@
         "statusVal": "",
         "statusType": "auto",
         "x": 1170,
-        "y": 640,
+        "y": 600,
         "wires": []
     },
     {
@@ -6663,7 +6673,7 @@
         "allowrate": false,
         "outputs": 1,
         "x": 430,
-        "y": 600,
+        "y": 560,
         "wires": [
             [
                 "0f81e7423eb21754"
@@ -6683,7 +6693,7 @@
         "winHide": false,
         "oldrc": false,
         "name": "",
-        "x": 470,
+        "x": 450,
         "y": 140,
         "wires": [
             [],
@@ -6704,8 +6714,8 @@
         "winHide": false,
         "oldrc": false,
         "name": "",
-        "x": 480,
-        "y": 200,
+        "x": 460,
+        "y": 220,
         "wires": [
             [],
             [],
@@ -6730,7 +6740,7 @@
         "drop": false,
         "allowrate": false,
         "outputs": 1,
-        "x": 460,
+        "x": 440,
         "y": 100,
         "wires": [
             [
@@ -6756,12 +6766,133 @@
         "drop": false,
         "allowrate": false,
         "outputs": 1,
-        "x": 460,
-        "y": 240,
+        "x": 440,
+        "y": 260,
         "wires": [
             [
                 "a90f2b9434c70e93"
             ]
         ]
+    },
+    {
+        "id": "bd64a812977a3b77",
+        "type": "ui_button",
+        "z": "3fc41409a7a06018",
+        "g": "f3060c14867d06d9",
+        "name": "Mumble starten",
+        "group": "63c303958262b710",
+        "order": 1,
+        "width": 3,
+        "height": 1,
+        "passthru": true,
+        "label": "Mumble stoppen",
+        "tooltip": "Startet Mumble ohne Serververbindung",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "play_arrow",
+        "payload": "systemctl --user stop mumble-client.service",
+        "payloadType": "str",
+        "topic": "Mumble stoppen",
+        "topicType": "str",
+        "x": 680,
+        "y": 660,
+        "wires": [
+            [
+                "6e7c4e5fe839bb73"
+            ]
+        ]
+    },
+    {
+        "id": "6e7c4e5fe839bb73",
+        "type": "exec",
+        "z": "3fc41409a7a06018",
+        "g": "f3060c14867d06d9",
+        "command": "",
+        "addpay": "payload",
+        "append": "",
+        "useSpawn": "false",
+        "timer": "",
+        "winHide": false,
+        "oldrc": false,
+        "name": "Mumble stoppen",
+        "x": 860,
+        "y": 660,
+        "wires": [
+            [
+                "163259693e1a7e02"
+            ],
+            [
+                "d9283b3d1df30fa8"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "163259693e1a7e02",
+        "type": "debug",
+        "z": "3fc41409a7a06018",
+        "g": "f3060c14867d06d9",
+        "name": "Mumble Stop Debug",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1140,
+        "y": 640,
+        "wires": []
+    },
+    {
+        "id": "d9283b3d1df30fa8",
+        "type": "debug",
+        "z": "3fc41409a7a06018",
+        "g": "f3060c14867d06d9",
+        "name": "Mumble Stop Error",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1140,
+        "y": 680,
+        "wires": []
+    },
+    {
+        "id": "c632afe08641f692",
+        "type": "link in",
+        "z": "3fc41409a7a06018",
+        "g": "f3060c14867d06d9",
+        "name": "Mumble Stop in",
+        "links": [
+            "73f3d933e75630d3"
+        ],
+        "x": 545,
+        "y": 660,
+        "wires": [
+            [
+                "bd64a812977a3b77"
+            ]
+        ]
+    },
+    {
+        "id": "73f3d933e75630d3",
+        "type": "link out",
+        "z": "3fc41409a7a06018",
+        "g": "20ba795cfae420ee",
+        "name": "link out 1",
+        "mode": "link",
+        "links": [
+            "c632afe08641f692"
+        ],
+        "x": 285,
+        "y": 180,
+        "wires": []
     }
 ]
