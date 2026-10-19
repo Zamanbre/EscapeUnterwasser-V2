@@ -6790,7 +6790,7 @@
         "height": 1,
         "passthru": true,
         "label": "Mumble stoppen",
-        "tooltip": "Startet Mumble ohne Serververbindung",
+        "tooltip": "Beendet Mumble",
         "color": "",
         "bgcolor": "",
         "className": "",
